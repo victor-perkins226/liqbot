@@ -1,6 +1,6 @@
 import { execFileSync } from "child_process";
 
-import config from "../config.js";
+import config from "../config";
 
 const hasProp = <T, P extends PropertyKey>(o: T, p: P): o is T & { [_ in P]: unknown } =>
   typeof o === "object" && o !== null && p in o;

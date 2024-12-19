@@ -1,12 +1,16 @@
 {
   "name": "liquity-liqbot",
   "version": "0.0.0-semantic-release",
+  "private": true,
   "description": "Simple liquidation bot for Liquity",
   "keywords": [
     "Liquity",
     "protocol",
     "DeFi",
     "Ethereum"
+  ],
+  "workspaces": [
+    "liquity/*"
   ],
   "homepage": "https://github.com/liquity/liqbot",
   "author": "Daniel Simon <dani@liquity.org>",
@@ -22,9 +26,6 @@
   },
   "dependencies": {
     "@flashbots/ethers-provider-bundle": "^0.4.2",
-    "@liquity/lib-base": "^3.0.0",
-    "@liquity/lib-ethers": "^3.3.1",
-    "@liquity/providers": "^1.0.1",
     "chalk": "^5.0.0",
     "ethers": "^5.5.2",
     "ws": "^8.3.0"

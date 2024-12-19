@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // Root directory of your project
+    "paths": {
+      "@liquity/*": ["liquity/*"] // Map "@" to the "src" folder
+    },
     "outDir": "build",
     "declaration": true,
     "declarationMap": true,
@@ -10,6 +14,7 @@
     "moduleResolution": "Node",
     "strict": true,
     "strictNullChecks": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }
