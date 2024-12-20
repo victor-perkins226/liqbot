@@ -29,7 +29,7 @@ import {
 
 import { BlockPolledLiquityStore, PopulatedEthersLiquityTransaction } from "@liquity/lib-ethers";
 
-import config from "../config";
+import config from "../config.js";
 import { LiqbotConfig } from "../types/index.js";
 import { warn } from "./logging.js";
 import { getLiquidationDetails } from "./parsing.js";

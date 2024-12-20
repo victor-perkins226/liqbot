@@ -1,5 +1,6 @@
 import WebSocket from "ws";
 import { providers, Wallet } from "ethers";
+import quais from 'quais'
 import { BlockPolledLiquityStore, EthersLiquity, EthersLiquityWithStore } from "@liquity/lib-ethers";
 import { Batched, WebSocketAugmented } from "@liquity/providers";
 
